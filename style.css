@@ -1,0 +1,59 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: #00ABF0;
+    background: #081B29;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #0F0F0F;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cal button {
+    background-color: #3F3F3F;
+    margin: 0.5px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cal button:hover{
+    background-color: #353535;
+}
+
+#res {
+    height: 40px;
+    width: 97%;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+}
